@@ -25,7 +25,10 @@
 		"cakephp/cakephp-codesniffer": "^1.0.0"
 	},
 	"config": {
-		"vendor-dir": "app/Vendor"
+		"vendor-dir": "app/Vendor",
+		"disable-tls": true,
+        	"secure-http": false
+    }    
 	},
 	"bin": [
 		"lib/Cake/Console/cake"
