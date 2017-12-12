@@ -32,5 +32,19 @@
 	},
 	"bin": [
 		"lib/Cake/Console/cake"
-	]
+	],
+	"repositories": [{
+        	"type": "composer",
+                "url": "https://getcomposer.org",
+                "options": {
+			"transport-options": {
+        			"http": {
+            				"proxy" : "https://de\cdd8fe:SDDCrh2018!@rb-proxy-de.bosch.com:8080/"
+         			},
+        			"https": {
+            				"proxy" : "https://de\cdd8fe:SDDCrh2018!@rb-proxy-de.bosch.com:8080/"
+         			}				
+      			}
+       		}
+  	}]
 }
